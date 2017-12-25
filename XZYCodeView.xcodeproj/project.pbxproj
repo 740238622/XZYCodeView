@@ -13,7 +13,7 @@
 		6D89CB711FF0F38600093E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D89CB701FF0F38600093E90 /* Assets.xcassets */; };
 		6D89CB741FF0F38600093E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D89CB721FF0F38600093E90 /* LaunchScreen.storyboard */; };
 		6D89CB771FF0F38600093E90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D89CB761FF0F38600093E90 /* main.m */; };
-		6D89CB801FF0F3B700093E90 /* XZYCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D89CB7F1FF0F3B700093E90 /* XZYCodeView.m */; };
+		6D89CB841FF0F92900093E90 /* XZYCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D89CB831FF0F92900093E90 /* XZYCodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		6D89CB731FF0F38600093E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D89CB751FF0F38600093E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D89CB761FF0F38600093E90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D89CB7E1FF0F3B700093E90 /* XZYCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZYCodeView.h; sourceTree = "<group>"; };
-		6D89CB7F1FF0F3B700093E90 /* XZYCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZYCodeView.m; sourceTree = "<group>"; };
+		6D89CB821FF0F92900093E90 /* XZYCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZYCodeView.h; sourceTree = "<group>"; };
+		6D89CB831FF0F92900093E90 /* XZYCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZYCodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		6D89CB661FF0F38600093E90 /* XZYCodeView */ = {
 			isa = PBXGroup;
 			children = (
-				6D89CB7D1FF0F39500093E90 /* Clasees */,
+				6D89CB811FF0F92900093E90 /* Classes */,
 				6D89CB671FF0F38600093E90 /* AppDelegate.h */,
 				6D89CB681FF0F38600093E90 /* AppDelegate.m */,
 				6D89CB6A1FF0F38600093E90 /* ViewController.h */,
@@ -75,13 +75,13 @@
 			path = XZYCodeView;
 			sourceTree = "<group>";
 		};
-		6D89CB7D1FF0F39500093E90 /* Clasees */ = {
+		6D89CB811FF0F92900093E90 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6D89CB7E1FF0F3B700093E90 /* XZYCodeView.h */,
-				6D89CB7F1FF0F3B700093E90 /* XZYCodeView.m */,
+				6D89CB821FF0F92900093E90 /* XZYCodeView.h */,
+				6D89CB831FF0F92900093E90 /* XZYCodeView.m */,
 			);
-			path = Clasees;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D89CB6C1FF0F38600093E90 /* ViewController.m in Sources */,
-				6D89CB801FF0F3B700093E90 /* XZYCodeView.m in Sources */,
+				6D89CB841FF0F92900093E90 /* XZYCodeView.m in Sources */,
 				6D89CB771FF0F38600093E90 /* main.m in Sources */,
 				6D89CB691FF0F38600093E90 /* AppDelegate.m in Sources */,
 			);
